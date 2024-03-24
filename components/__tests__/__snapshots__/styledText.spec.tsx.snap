@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Teste das funções MonoText e Title MonoText renderizado corretamente 1`] = `
+<Text
+  style={
+    [
+      {
+        "color": "#000",
+      },
+      [
+        undefined,
+        {
+          "fontFamily": "SpaceMono",
+        },
+      ],
+    ]
+  }
+>
+  Snapshot test for MonoText!
+</Text>
+`;
+
+exports[`Teste das funções MonoText e Title Title renderizado corretamente 1`] = `
+<Text
+  style={
+    [
+      {
+        "color": "#000",
+      },
+      [
+        undefined,
+        {
+          "fontSize": 24,
+          "fontWeight": "bold",
+        },
+      ],
+    ]
+  }
+>
+  Snapshot test for Title!
+</Text>
+`;
