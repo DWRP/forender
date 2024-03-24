@@ -51,6 +51,32 @@ O projeto faz uso das seguintes bibliotecas e ferramentas para facilitar o desen
 - **React Native Color Picker**: Componente para seleção de cores em aplicativos React Native.
 - **Expo**: Plataforma que simplifica o desenvolvimento e implantação de aplicativos móveis.
 
+# Tutorial Básico para Rodar o Projeto
+
+## Pré-requisitos:
+- Node.js instalado em sua máquina.
+- Yarn ou npm instalado em sua máquina.
+- Configurações do firebase adicionadas no arquivo “firebaseConfig.js” na raiz do projeto.
+
+## Instalação das dependências:
+1. Navegue até a pasta do projeto.
+2. Execute o seguinte comando no terminal:
+
+`yarn install`
+
+
+## Rodando o projeto:
+1. Inicie o servidor de desenvolvimento com o seguinte comando:
+`yarn start`
+
+2. O projeto estará disponível para ser rodado em um emulador apertando “d” no terminal, ou escaneando o QR Code do terminal no app Expo Go.
+
+## Observações:
+- O projeto foi desenvolvido com o Expo versão 50.
+- O código do projeto está organizado em pastas e arquivos, seguindo a estrutura descrita anteriormente.
+- O projeto utiliza diversas bibliotecas e ferramentas, que estão listadas na seção "Bibliotecas e Ferramentas Adicionais".
+
+
 ## Conclusão
 
 O projeto "Forender" é um exemplo de aplicação que combina tecnologias modernas para criar uma experiência de usuário robusta e agradável. A arquitetura baseada em rotas, juntamente com o uso de bibliotecas e ferramentas adicionais, contribuem para a organização do código e a eficiência do desenvolvimento. Este projeto serviu não apenas como um teste técnico, mas também como uma oportunidade de aprendizado e experimentação em novas tecnologias.
