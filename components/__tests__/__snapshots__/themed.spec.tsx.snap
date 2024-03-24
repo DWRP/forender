@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testando a renderização dos componentes do tema Text renderiza corretamente 1`] = `
+<Text
+  style={
+    [
+      {
+        "color": "#000",
+      },
+      undefined,
+    ]
+  }
+>
+  Snapshot test for Text!
+</Text>
+`;
+
+exports[`Testando a renderização dos componentes do tema TextInput renderiza corretamente 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#fff",
+      },
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+      },
+    ]
+  }
+>
+  <TextInput
+    placeholder="Snapshot test for TextInput!"
+    placeholderTextColor="#000"
+    style={
+      [
+        {
+          "borderColor": "#000",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "color": "#000",
+          "marginVertical": 8,
+          "padding": 8,
+          "width": "75%",
+        },
+        undefined,
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`Testando a renderização dos componentes do tema TextInput(senha) renderiza corretamente 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#fff",
+      },
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+      },
+    ]
+  }
+>
+  <TextInput
+    placeholder="Snapshot test for Password TextInput!"
+    placeholderTextColor="#000"
+    secureTextEntry={true}
+    style={
+      [
+        {
+          "borderColor": "#000",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "color": "#000",
+          "marginVertical": 8,
+          "padding": 8,
+          "width": "75%",
+        },
+        undefined,
+      ]
+    }
+  />
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "opacity": 1,
+      }
+    }
+  >
+    <Text />
+  </View>
+</View>
+`;
+
+exports[`Testando a renderização dos componentes do tema View renderiza corretamente 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#fff",
+      },
+      {
+        "height": 100,
+        "width": 100,
+      },
+    ]
+  }
+/>
+`;
